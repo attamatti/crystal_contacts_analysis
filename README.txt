@@ -36,4 +36,4 @@ find_saltbridge.py <contacts list file> <model #>
 If you are using the original chimera session the model number will be 0, if you have reopened the file if may have changed.
 Each script makes prints out a line that can be pasted into the chimera command line to select the residues involved in those interactions.
 
-Some residues may come up as multiple types of interactions. I like ot do them in the order hydrophobic-hbond-saltbridge. 
+Some residues may come up as multiple types of interactions. I like to do them in the order hydrophobic-hbond-saltbridge. 
