@@ -23,7 +23,7 @@ first make the necessray files in chimera - (will eventually automate this):
 
 9. use all other default params for now
 
-10. use Tools / Surface/Binding Analysis / FindBond. make sure the save file option is selected for this also.
+10. use Tools / Surface/Binding Analysis / FindHBonds. make sure the save file option is selected for this also.
 
 --> done chimera-ing for now
 
