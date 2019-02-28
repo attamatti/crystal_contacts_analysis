@@ -17,9 +17,9 @@ first make the necessray files in chimera - (will eventually automate this):
 
 6. Make sure the save file option is selected 
 
-7. Designate the original model for checking - select it on model panel and then click designame
+7. Designate the original model for checking - select it on model panel and then click designate
 
-8. Designate all other models for checking against - select them on model panel and then click designame
+8. Designate all other models for checking against - select them on model panel and then click designate
 
 9. use all other default params for now
 
