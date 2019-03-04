@@ -24,7 +24,7 @@ comlist = []
 for i in allhbonds:
 	line = i.split()
 	if line[0] != line[4]:
-		comlist.append('{0}:{1}'.format(model,line[2]))
+		comlist.append('#{0}:{1}'.format(model,line[2]))
 
 print('\nfound {0} residues with H-bonds'.format(len(comlist)))
 if len(comlist) > 0:
