@@ -21,11 +21,15 @@ for i in data:
 		if linemod == model:
 			allhbonds.append(i.replace('\n',''))
 comlist = []
+atomselcom = []
 for i in allhbonds:
 	line = i.split()
 	if line[0] != line[4]:
 		comlist.append('#{0}:{1}'.format(model,line[2]))
+		atomselcom.append('{0}:{1}@{2}'.format(line[0],line[2],line[3]))
+		atomselcom.append('{0}:{1}@{2}'.format(line[4],line[6],line[7]))
 
 print('\nfound {0} residues with H-bonds'.format(len(comlist)))
 if len(comlist) > 0:
 	print('\nsel {0}\n'.format(' '.join(comlist)))
+	print('\nsel {0}\n'.format(' '.join(atomselcom)))
