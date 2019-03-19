@@ -25,6 +25,8 @@ first make the necessray files in chimera - (will eventually automate this):
 
 10. use Tools / Surface/Binding Analysis / FindHBonds. make sure the save file option is selected for this also.
 
+This is a modified versio of a protocol originally from Tom Goddard.
+
 --> done chimera-ing for now
 
 run the scripts - :
